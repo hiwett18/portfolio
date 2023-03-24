@@ -11,18 +11,24 @@ export const skills = [
     {
         id: 1, 
         name: 'Python/Flask',
-        percentage: 85,
+        percentage: 90,
         description: ''
     },
     {
         id: 2, 
         name: 'JavaScript/React/Next.js',
-        percentage: 80,
+        percentage: 85,
         description: ''
     },
     {
         id: 3, 
         name: 'MySql/Snowflake',
+        percentage: 80,
+        description: ''
+    },
+    {
+        id: 4, 
+        name: 'AWS',
         percentage: 80,
         description: ''
     }

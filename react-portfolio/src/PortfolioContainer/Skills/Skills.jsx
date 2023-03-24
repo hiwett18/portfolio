@@ -3,10 +3,13 @@ import { skills } from '../../Data.jsx'
 import './skills.css'
 import { Progress, Heading } from '@chakra-ui/react'
 
+
 function Skills() {
   return (
+    
     <section className='skills-section' id='skills'>
-        <Heading justify="center">Professional Skills</Heading>
+    
+        <Heading justify="center">Professional Skills  </Heading>
         
 
         <div className='skill-container container'>
@@ -30,7 +33,9 @@ function Skills() {
             }
             )}
         </div> 
+      
     </section>
+   
   )
 }
 

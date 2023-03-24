@@ -1,0 +1,12 @@
+.project-section{
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+
+    min-height: fit-content;
+    margin-top: 70px;
+     
+}

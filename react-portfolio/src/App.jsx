@@ -10,6 +10,8 @@ import { BrowserRouter, Routes, Route, Switch } from 'react-router-dom';
 import ProjectsPage from './PortfolioContainer/Projects/ProjectsPage';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import { Flex, VStack, Heading } from '@chakra-ui/layout'
+
 
 
 const router = createBrowserRouter([
@@ -27,15 +29,31 @@ const router = createBrowserRouter([
   
 ]);
 
+// function App() {
+//   return (
+//    <div>
+      
+//     <ChakraProvider > 
+      
+//         <RouterProvider router={router} />
+      
+//     </ChakraProvider>
+//   </div>
+//   )
+// }
+
+// export default App;
+
+
 function App() {
   return (
    <div>
       
-    <ChakraProvider > 
+    <VStack > 
       
         <RouterProvider router={router} />
       
-    </ChakraProvider>
+    </VStack>
   </div>
   )
 }
