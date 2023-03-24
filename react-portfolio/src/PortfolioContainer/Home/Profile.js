@@ -45,10 +45,10 @@ export default function Profile() {
                         <span className='primary-text'>
                             {" "}
                             <h1>
-                            Full Stack Developer 
+                            Full Stack Software Developer 
                             </h1>
                             <Container>
-                            Experienced React Full-Stack Developer and Data Scientist. Built and maintained several front-end and back-end web applications using React, Node.js, and other modern technologies. Well-versed in the latest best practices and trends in React development. Highly proficient in producing data-driven solutions with outstanding problem-solving abilities. Proficient in building statistical models using python. Played a crucial role in data processing analysis, enhancing efficiency, and accuracy.
+                            Experienced React Full-Stack Software Developer and Data Scientist. Built and maintained several front-end and back-end web applications using React, Node.js, and other modern technologies. Well-versed in the latest best practices and trends in React development. Highly proficient in producing data-driven solutions with outstanding problem-solving abilities. Proficient in building statistical models using python. Played a crucial role in data processing analysis, enhancing efficiency, and accuracy.
                             </Container>
                         </span>
                     </div>
