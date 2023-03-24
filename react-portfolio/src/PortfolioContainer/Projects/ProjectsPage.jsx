@@ -57,7 +57,21 @@ export default function ProjectsPage() {
         
         
       </HStack>
-    
+      <HStack justify="center">
+        <NavLink to="https://hw-currency-ex.netlify.app/">
+          {({ isActive }) => (
+            <Box
+              p="2"
+              borderBottomWidth="thick"
+              borderBottomColor={isActive ? "blue.700" : "blue.500"}
+            >
+              Currency Exchange
+            </Box>
+          )}
+        </NavLink>
+        
+        
+      </HStack>
       </Box>
       </div>
     </section>
