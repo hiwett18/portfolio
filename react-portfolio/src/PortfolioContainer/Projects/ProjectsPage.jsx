@@ -15,6 +15,23 @@ export default function ProjectsPage() {
       <HStack justify="center">
         
       
+        <NavLink to="https://booked-oxh9.onrender.com/">
+          {({ isActive }) => (
+            <Box
+              p="2"
+              borderBottomWidth="thick"
+              borderBottomColor={isActive ? "blue.700" : "blue.500"}
+            >
+              Capstone Project 
+            </Box>
+          )}
+        </NavLink>
+        
+        
+      </HStack>
+      <HStack justify="center">
+        
+      
         <NavLink to="https://hwtictactoe.netlify.app/">
           {({ isActive }) => (
             <Box
