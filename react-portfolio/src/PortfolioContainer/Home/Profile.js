@@ -45,10 +45,10 @@ export default function Profile() {
                         <span className='primary-text'>
                             {" "}
                             <h1>
-                            Full Stack Software Developer 
+                            Cloud Software|Data Engineer 
                             </h1>
                             <Container>
-                            Experienced React Full-Stack Software Developer and Data Scientist. Built and maintained several front-end and back-end web applications using React, Node.js, and other modern technologies. Well-versed in the latest best practices and trends in React development. Highly proficient in producing data-driven solutions with outstanding problem-solving abilities. Proficient in building statistical models using python. Played a crucial role in data processing analysis, enhancing efficiency, and accuracy.
+                            Highly motivated data engineer and software developer looking for a challenging role to use my skills in frontend and backend software development, ETL pipeline design, data warehousing, and automation. Skilled at automating mundane operations for better efficiency.
                             </Container>
                         </span>
                     </div>
